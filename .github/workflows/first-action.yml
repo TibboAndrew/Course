@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Hello World Bitch!"
+        run: |
+          echo "Hello World Bitch!"
+          echo "Hope you like my fart!"
       - name: Print goodbye
         run: echo "Done - bye asshole!"
